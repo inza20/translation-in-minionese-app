@@ -30,4 +30,25 @@ function clickHandler() {
         .catch(errorHandler)
 };
 
-btnTranslate.addEventListener("click", clickHandler)
+btnTranslate.addEventListener("click", clickHandler);
+
+
+
+// -- basic code ---
+// var url = "https://api.funtranslations.com/translate/minion.json?text=I am Inshirah";
+
+// fetch(url)
+// .then(response => response.json())
+// .then(json => console.log(json));
+
+// -- OP in console ---
+
+// {success: {…}, contents: {…}}
+// contents: 
+// text: "I am Tanay"
+// translated: "ka am Tanay"
+// translation: "minion"
+// [[Prototype]]: Object
+// success: {total: 1}
+// [[Prototype]]: Object
+

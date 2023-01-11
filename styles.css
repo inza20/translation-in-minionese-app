@@ -11,7 +11,7 @@ h1, h4, p, a{
 }
 
 nav{
-   height: 7vh;
+   height: 9vh;
    background-color: var(--primary);
    
 }
@@ -47,7 +47,7 @@ textarea {
 }
 
 main{
-    height: 70vh;
+    height: 65vh;
 }
 
 textarea {
