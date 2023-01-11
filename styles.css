@@ -1,0 +1,22 @@
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.heading{
+    background-color: yellow;
+    height: 10vh;
+    padding: 2 rem;
+    margin: auto;
+}
