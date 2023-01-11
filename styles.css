@@ -1,10 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+h1, h4, p, a{
+    margin: 0px;
+}
+
+nav{
+   height: 7vh;
+   background-color: var(--primary);
+   
+}
+
+body{
+    font-family: 'Capriola', sans-serif;
+
+}
+
 textarea {
     width: 80%;
     height: 10vh;
     display: block;
-    margin: 1rem;
-    padding: 1rem;
+    /* margin: 1rem;
+    padding: 1rem; */
 }
+
+
 
 #output {
     border: 1px solid black;
@@ -15,8 +40,44 @@ textarea {
 }
 
 .heading{
-    background-color: yellow;
-    height: 10vh;
-    padding: 2 rem;
-    margin: auto;
+    background-color: var(--primary);
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+
 }
+
+main{
+    height: 70vh;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    
+}
+
+
+
+#btn-translate{
+    background-color: var(--primary);
+    border: none;
+    margin: 2rem ;
+    padding:  2rem;
+}   
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
+
+
+
