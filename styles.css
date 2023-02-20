@@ -67,12 +67,16 @@ textarea {
 
 
 
-#btn-translate{
+#btn-translate, #btn-clear{
     background-color: var(--primary);
     border: none;
     margin: 0rem ;
     padding: 1rem;
-}   
+} 
+
+#txt-output{
+    margin: 0%;
+}
 
 #translate-output {
     box-sizing: border-box;
