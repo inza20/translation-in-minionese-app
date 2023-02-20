@@ -6,12 +6,16 @@
     --width-break: 600px;
 }
 
+*{
+    margin: 0%;
+}
+
 h1, h4, p, a{
     margin: 0px;
 }
 
 nav{
-   height: 9vh;
+   height: 10vh;
    background-color: var(--primary);
    
 }
